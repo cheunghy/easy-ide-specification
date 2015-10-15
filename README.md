@@ -59,7 +59,45 @@ should be updated.
 
 ### Launch the editor
 
-WIP
+User should be able to use system native way to open the editor, e.g. click
+an icon on the dock to open the editor.
+
+### System commands
+
+| Command | Emacs key | Vim key | Sublime Text key (OS X) |
+|:-------:|:---------:|:-------:|:----------------:|
+| Cancelling | C-g |  |  |
+| Exit editor| C-x C-c | :q | s-q |
+| Restart | C-x C-C |  | C-M-s-w |
+| Suspend | C-x C-z |  | s-m |
+| Toggle full screen | | | C-s-f |
+| Command palette | M-x |  | s-P |
+| Open menu bar | M-` |  |  |  |
+
+### Configuration
+
+| Command | Emacs key | Vim key | Sublime Text key (OS X) |
+|:-------:|:---------:|:-------:|:----------------:|
+| Open configuration UI | C-z c p |  | s-, |
+| Goto main conf file | C-z c i |  |  |
+| Goto a conf file | C-z c c |  |  |
+| Goto key bindings file | C-z c k |  |  |  |
+
+### Get help
+
+| Command | Emacs key | Vim key | Sublime Text key (OS X) |
+|:-------:|:---------:|:-------:|:----------------:|
+| Get documentation of key | C-h k |  |  |
+| Get usage of key | C-h c |  |  |
+| Get usage of function | C-h f |  |  |
+| Get usage of variable | C-h v |  |  |
+| Get commands matching predicate | C-h a |  |  |
+| Get everything matching predicate | C-h d |  |  |
+| Get all key bindings| C-h b |  |  |
+| Get help of current syntax| C-h m |  |  |
+| Goto log message buffer | C-h e |  |  |
+| Read manual | C-h i |  |  |
+| Get help in dash (osx doc app) | C-h D |  |  |  |
 
 ### more
 
